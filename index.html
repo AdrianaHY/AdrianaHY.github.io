@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Adriana</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Codrops" />
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+		<link rel="stylesheet" href="css/general.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-1">
+		<svg class="hidden">
+			<symbol id="icon-caret" viewBox="0 0 24 24">
+				<title>caret</title>
+				<polygon points="15.7,16.6 11.1,12 15.7,7.4 14.3,6 8.3,12 14.3,18"/>
+			</symbol>
+			<symbol id="icon-menu" viewBox="0 0 24 24">
+				<title>menu</title>
+				<path d="M23.8,6H0.1V3h23.7V6z M23.8,10.5H0.1v3h23.7V10.5z M14.2,18h-14v3h14V18z"/>
+			</symbol>
+			<symbol id="icon-cross" viewBox="0 0 24 24">
+				<title>cross</title>
+				<path d="M14.1,12l7.3,7.3l-2.1,2.1L12,14.1l-7.3,7.3l-2.1-2.1L9.9,12L2.6,4.7l2.1-2.1L12,9.9l7.3-7.3l2.1,2.1L14.1,12z"/>
+			</symbol>
+		</svg>
+		<main class="view">
+			<div class="content">
+				<header class="codrops-header">
+					<div class="presentacion">
+						<img src="assets/img/logo.png" alt="logo" class="codrops-header__info imagen-logo img-responsive">
+					</div>
+					<div class="container ">
+						<div class="row ">
+							<p class="codrops-header col-xs-6 rectangulo-presentacion presentacion">
+								Soy Adriana Hernández, front-end developer,diseñadora y comunicadora visual.
+								Apasionada de la tecnología,el cine, la fotografía y la música.
+
+							</p>
+						</div>
+					</div>
+
+				
+					<div class="rectangulo-hola">
+						<h1 class="codrops-header__title fuente">¡Hola!</h1>
+					</div>
+
+					<p class="codrops-header__tagline"><a href="href=views/secciones.html#contacto">¡Contáctame!</a></p>
+					<!-- <nav class="demos">
+						<span class="demos__text">cors tuum magicus urn, aeternus canum fidelis, lapis et caro per sempre, nunquam intervalum</span>
+						<a class="demo demo--current" href="index.html">1</a>
+						<a class="demo" href="index2.html">2</a>
+						<a class="demo" href="index3.html">3</a>
+					</nav> -->
+				</header>
+			</div>
+			<button class="btn btn--menu">
+				<svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg>
+				<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
+			</button>
+			<nav class="tabsnav tabsnav--vertical tabsnav--ander">
+				<div class="tabsnav__item">
+					<div class="tabsnav__bar"></div>
+					<h3 class="tabsnav__title">Otros</h3>
+				</div>
+				<div class="tabsnav__item">
+					<div class="tabsnav__bar"></div>
+					<h3 class="tabsnav__title">¡Bienvenido!</h3>
+				</div>
+			</nav>
+			<div class="tabscontent">
+				<div class="tabscontent__item">
+					<figure class="poster">
+						<img class="poster__img" src="assets/img/otros.png" alt="Poster 1"/>
+						<figcaption class="poster__caption">
+							<h2 class="poster__title"><a href="views/secciones.html#otros">Otros Proyectos</a></h2>
+							<p class="poster__deco">Fotografía y videos</p>
+							<div class="poster__box"></div>
+							<span class="poster__number"></span>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="tabscontent__item">
+					<figure class="poster">
+						<img class="poster__img" src="assets/img/portafolio.png" alt="Poster 1"/>
+						<figcaption class="poster__caption">
+							<h2 class="poster__title"><a href="views/secciones.html#portafolio">Portafolio</a></h2>
+							<img class="poster__deco" src="assets/img/skills.png" alt="">
+							<div class="poster__box"><a href="views/secciones.html#skills">Skills</a></div>
+							<span class="poster__number"></span>
+						</figcaption>
+					</figure>
+				</div>
+				<button class="btn btn--back"><svg class="icon icon--caret"><use xlink:href="#icon-caret"></use></svg></button>
+			</div>
+		</main>
+
+
+		<script src="js/anime.min.js"></script>
+		<script src="js/enquire.min.js"></script>
+		<script src="js/tabsnav.js"></script>
+		<script src="js/demo1.js"></script>
+	</body>
+</html>

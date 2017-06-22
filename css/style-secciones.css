@@ -1,0 +1,41 @@
+/*Para la seccion de portafolio*/
+*{
+	margin:0;
+	padding:0;
+}
+.margin-top{
+	margin-top: 5rem;
+}
+.margin-left{
+	margin-left: 5rem;
+}
+#portafolio{
+	background-image:url(../assets/img/fondo-portafolio.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.titulos{
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+	font-size: 3rem;
+}
+/*Para la seccion de skilss*/
+
+#skilss{
+	background: #fff;
+	height: 100vh;
+}
+.titulos{
+	font-family: 'Comfortaa', cursive;
+	color: #DCA692;
+	font-size: 3rem;
+}
+
+/*Para la sección de otros*/
+#otros{
+	height: 100vh;
+}
+#fotografia{
+	height: 100vh;
+}
