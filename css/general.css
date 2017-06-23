@@ -18,10 +18,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+#bienvenida-logo{
+	display: none;
+}
 #logo-inicio{
 	width:20rem;
 	margin-top:15rem;
 	margin-right: 8rem;
+}
+#bienvenido{
+	font-family: 'Comfortaa', cursive;
+	color:#809F8E;
+	font-size: 3.5rem;
+}
+#bienvenido:hover{
+	color:#fff;
+	cursor: pointer;
 }
 .imagen-logo{
   width: 100%;
@@ -52,9 +64,9 @@ body {
 	font-size: 3rem;
 }
 @media (max-width:767px){
-	/*.tabsnav__item {
-	    visibility: visible;
-	}*/
+	.tabsnav__item {
+	    visibility: hidden;
+	}
 	.codrops-header{
 		display:none;
 	}
@@ -70,4 +82,8 @@ body {
 	.rectangulo-hola{
 		display:none;
 	}
+	#bienvenida-logo{
+		display:block;
+	}
+	
 }
