@@ -18,6 +18,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+#logo-inicio{
+	width:20rem;
+	margin-top:15rem;
+	margin-right: 8rem;
+}
 .imagen-logo{
   width: 100%;
   align-content: center;
@@ -47,7 +52,22 @@ body {
 	font-size: 3rem;
 }
 @media (max-width:767px){
-	.tabsnav__item {
+	/*.tabsnav__item {
 	    visibility: visible;
+	}*/
+	.codrops-header{
+		display:none;
+	}
+	.codrops-header p{
+		display:none;
+	}
+	.codrops-header img{
+		display:none;
+	}
+	.codrops-header h1{
+		display:none;
+	}
+	.rectangulo-hola{
+		display:none;
 	}
 }
