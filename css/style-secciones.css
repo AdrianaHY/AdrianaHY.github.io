@@ -3,56 +3,60 @@
 	margin:0;
 	padding:0;
 }
-#nav{
-	display:none;
-}
-nav{
-	/*background-image: url(../assets/img/fondo1.png);*/
-	background: #fff;
-	padding: 1rem;
 
-}
-nav img{
-	width: 25%;
-}
-nav strong{
-	font-size: 2rem;
-	color:#000;
-	font-family: 'Comfortaa', cursive;
-}
-nav a:hover{
-	cursor:pointer;
-}
+	/*#nav{
+		display:none;
+	}*/
+	nav{
+		/*background-image: url(../assets/img/fondo1.png);*/
+		background: #fff;
+		padding: 1rem;
+
+	}
+	nav img{
+		width: 25%;
+	}
+	nav strong{
+		font-size: 2rem;
+		color:#000;
+		font-family: 'Comfortaa', cursive;
+	}
+	nav a:hover{
+		cursor:pointer;
+	}
 
 
-/*para el about me*/
-#about-me{
-	background-image: url(../assets/img/fondo-about.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display:none;
-}
-#about-me img{
-	width:100%;
-	margin-top:15rem;
-	margin-left:15rem;
-}
-#about-me p{
-	background-color: #fff;
-	opacity: .8;
-	font-family: 'Comfortaa', cursive;
-	color:#809F8E;
-	font-size: 4rem;
-}
-@media(max-width:767px){
+	/*para el about me*/
+	#about-me{
+		background-image: url(../assets/img/fondo-about.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		/*display:none;*/
+	}
+	#about-me img{
+		width:100%;
+		margin-top:15rem;
+		margin-left:15rem;
+	}
+	#about-me p{
+		background-color: #fff;
+		opacity: .8;
+		font-family: 'Comfortaa', cursive;
+		color:#809F8E;
+		font-size: 4rem;
+	}
+
+
+/*@media(max-width:767px){
+
 	#nav{
-	  display:block;
+	  display:visible;
 	}
 	#about-me{
-		display:block;
+		display:visible;
 	}
 
-}
+}*/
 
 .margin-top{
 	margin-top: 5rem;
@@ -169,7 +173,7 @@ nav a:hover{
 
 #fotografia{
 	background-image: url(../assets/img/fondo1.png);
-
+	display:none;
 }
 
 /*para el contacto*/
