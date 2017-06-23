@@ -9,33 +9,119 @@
 .margin-left{
 	margin-left: 5rem;
 }
+.margin-bottom{
+	margin-bottom: 5rem;
+	/*position:relative;*/
+}
+.padding-top{
+	padding-top: 5rem;
+}
 #portafolio{
 	background-image:url(../assets/img/fondo-portafolio.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	/*height: 100vh;*/
 }
 .titulos{
 	font-family: 'Comfortaa', cursive;
 	color: #fff;
 	font-size: 3rem;
 }
+.contenedor-trabajos{
+	background-color: #fff;
+	opacity: .8;
+}
+.trabajos{
+	height: 60vh;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #809F8E;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 /*Para la seccion de skilss*/
 
 #skilss{
-	background: #fff;
-	height: 100vh;
+	background: #809F8E;
+	height: 120vh;
 }
+.skills-barra{
+	background-image: url(../assets/img/barra.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 10rem;
+	text-align: center;
+}
+#contenedor-skills{
+	background:#DCA692;
+	/*height: 25vh;*/
+	opacity: .5;
+	color:#000;
+}
+/*.color-skills{
+	background-color: #fff;
+	opacity:.5;
+}*/
 .titulos{
 	font-family: 'Comfortaa', cursive;
 	color: #DCA692;
-	font-size: 3rem;
+	font-size: 5rem;
+	text-align: center;
 }
 
 /*Para la sección de otros*/
-#otros{
-	height: 100vh;
+.principal-otros{
+	background:  #809F8E;
 }
+.presentacion-otros{
+	background-color: #fff;
+	background-image: url(../assets/img/fondo1.png);
+	opacity: .8;
+	font-size: 3rem;
+	padding:2rem;
+}
+.parrafo-otros{
+	background: #fff;
+	opacity:.8;
+	padding:2rem;
+	font-family: font-family: 'Comfortaa', cursive;;
+	color: #809F8E;
+
+}
+.iconos-otros{
+	background: #809F8E;
+	padding: 15rem;
+}
+
 #fotografia{
-	height: 100vh;
+	background-image: url(../assets/img/fondo1.png);
+
+}
+
+/*para el contacto*/
+#contacto{
+	background: #DCA692;
 }
